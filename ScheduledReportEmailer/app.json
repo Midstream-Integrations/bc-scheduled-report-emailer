@@ -1,0 +1,46 @@
+{
+  "id": "de28d410-f45b-4264-b053-9fa368ef5ee6",
+  "name": "Scheduled Report Emailer",
+  "publisher": "Midstream Integrations",
+  "version": "1.0.0.0",
+  "brief": "Email any report as PDF, Excel or Word on a Job Queue schedule, with saved report options, recipients and subject per entry.",
+  "description": "Email any report as PDF, Excel or Word on a Job Queue schedule, with saved report options, recipients and subject per entry.",
+  "privacyStatement": "https://github.com/Midstream-Integrations/bc-scheduled-report-emailer/blob/main/PRIVACY.md",
+  "EULA": "https://github.com/Midstream-Integrations/bc-scheduled-report-emailer/blob/main/LICENSE",
+  "help": "https://github.com/Midstream-Integrations/bc-scheduled-report-emailer#readme",
+  "url": "https://github.com/Midstream-Integrations/bc-scheduled-report-emailer",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50190,
+      "to": 50209
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
